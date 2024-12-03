@@ -50,6 +50,7 @@ class GradingAssistant:
     def summarize(self):
         final_score: int = 0
         total_points: int = 0
+        print('\n\n')
         for keys_0 in self.rubric_dict:
             print(f'{keys_0}')
             for keys_1 in self.rubric_dict[keys_0]:
